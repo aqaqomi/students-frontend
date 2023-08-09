@@ -1,0 +1,11 @@
+{
+    "API_URL": "https://students-back-sabokkhiz.apps.ir-thr-ba1.arvanpaas.ir",
+    "ADMIN_API": "/v1",
+    "USERS_API": "/v2",
+    "CREATE": "/create",
+    "VIEW": "/view",
+    "UPDATE": "/update",
+    "DELETE": "/delete",
+    "FIND": "/find",
+    "CHANGE_PASS": "/change-password"
+}

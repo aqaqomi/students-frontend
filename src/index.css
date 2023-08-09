@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'YekanBakhFaNum-Regular';
+    src: local('YekanBakhFaNum-Regular'), url('./fonts/YekanBakhFaNum-Regular.otf') format('opentype'), url('./fonts/YekanBakhFaNum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-Black';
+    src: local('YekanBakhFaNum-Black'), url('./fonts/YekanBakhFaNum-Black.otf') format('opentype'), url('./fonts/YekanBakhFaNum-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-Bold';
+    src: local('YekanBakhFaNum-Bold'), url('./fonts/YekanBakhFaNum-Bold.otf') format('opentype'), url('./fonts/YekanBakhFaNum-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-ExtraBlack';
+    src: local('YekanBakhFaNum-ExtraBlack'), url('./fonts/YekanBakhFaNum-ExtraBlack.otf') format('opentype'), url('./fonts/YekanBakhFaNum-ExtraBlack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-ExtraBold';
+    src: local('YekanBakhFaNum-ExtraBold'), url('./fonts/YekanBakhFaNum-ExtraBold.otf') format('opentype'), url('./fonts/YekanBakhFaNum-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-Light';
+    src: local('YekanBakhFaNum-Light'), url('./fonts/YekanBakhFaNum-Light.otf') format('opentype'), url('./fonts/YekanBakhFaNum-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-SemiBold';
+    src: local('YekanBakhFaNum-SemiBold'), url('./fonts/YekanBakhFaNum-SemiBold.otf') format('opentype'), url('./fonts/YekanBakhFaNum-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'YekanBakhFaNum-Thin';
+    src: local('YekanBakhFaNum-Thin'), url('./fonts/YekanBakhFaNum-Thin.otf') format('opentype'), url('./fonts/YekanBakhFaNum-Thin.ttf') format('truetype');
+}
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: 'YekanBakhFaNum-Regular';
+    font-size: 15.5px;
+}
+
+h1 {
+    font-family: 'YekanBakhFaNum-SemiBold';
+    font-size: 27px;
+}
+
+h2 {
+    font-family: 'YekanBakhFaNum-Bold';
+    font-size: 18px;
+}
+
+button {
+    font-family: 'YekanBakhFaNum-Semibold';
+    font-size: 13.5px;
+}
+
+.fw-bold {
+    font-family: 'YekanBakhFaNum-Bold';
+}
+
+.font-sm {
+    font-family: 'YekanBakhFaNum-Regular';
+    font-size: 10.5px;
+}
+
+.font-lg {
+    font-family: 'YekanBakhFaNum-Bold';
+    font-size: 15.5px;
+}
+
+.count-number {
+    font-family: 'YekanBakhFaNum-Bold';
+    font-size: 45px;
+    opacity: 0.7
+}
+
+
+.selectedServer {
+    border: 1px solid green;
+}
+
+.font-default {
+    font-family: 'Tahoma';
+}
