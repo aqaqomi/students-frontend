@@ -1,5 +1,5 @@
 {
-    "API_URL": "https://students-back-sabokkhiz.apps.ir-thr-ba1.arvanpaas.ir",
+    "API_URL": "https://tough-snaps-bat.cyclic.app",
     "ADMIN_API": "/v1",
     "USERS_API": "/v2",
     "CREATE": "/create",
